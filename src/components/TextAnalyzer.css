@@ -1,0 +1,95 @@
+.ta-root {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ta-label {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.ta-input {
+  width: 100%;
+  resize: vertical;
+  background: #0b1220;
+  color: #e2e8f0;
+  border: 1px solid rgba(148,163,184,0.25);
+  border-radius: 10px;
+  padding: 12px 14px;
+  outline: none;
+  line-height: 1.4;
+  max-height: calc(1.4em * 10 + 24px);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+.ta-input:focus {
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 3px rgba(96,165,250,0.15);
+}
+
+.ta-input:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.ta-input-error {
+  border-color: rgba(239,68,68,0.6);
+}
+
+.ta-error {
+  color: #fca5a5;
+  font-size: 13px;
+}
+
+.ta-meta {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.ta-count-warn { color: #fca5a5; }
+
+.ta-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4px;
+}
+
+.ta-button {
+  background: #60a5fa;
+  color: #0b1220;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.05s ease, filter 0.15s ease, opacity 0.15s ease;
+  min-height: 44px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ta-button:hover {
+  filter: brightness(1.03);
+}
+
+.ta-button:active {
+  transform: translateY(1px);
+}
+
+.ta-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .ta-button {
+    width: 100%;
+  }
+  .ta-actions {
+    justify-content: stretch;
+  }
+}
+
+
