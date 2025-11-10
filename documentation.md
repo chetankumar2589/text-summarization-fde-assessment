@@ -152,4 +152,3 @@ Content-Type: application/json
 ## Author
 Patruni Chetan Kumar
 Date: November 4, 2025
-Text Summarization API
