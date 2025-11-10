@@ -1,4 +1,4 @@
-# Text Summarization API - FDE Assessment
+# Text Summarization API through n8n
 
 ## Overview
 This project implements an end-to-end text summarization system using n8n workflow automation and a React frontend, integrated with the Groq LLM API (Llama-3.3-70b-versatile).
@@ -152,4 +152,4 @@ Content-Type: application/json
 ## Author
 Patruni Chetan Kumar
 Date: November 4, 2025
-Assessment: Forward Deployment Engineer - Text Summarization API
+Text Summarization API
